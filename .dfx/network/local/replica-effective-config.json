@@ -1,0 +1,31 @@
+{
+  "replica_rev": "324eb99eb7531369a5ef75560f1a1a652d123714",
+  "type": "replica",
+  "config": {
+    "http_handler": {
+      "port": null,
+      "write_port_to": "/Users/ryanjlee/rjl-token/.dfx/network/local/replica-configuration/replica-1.port"
+    },
+    "state_manager": {
+      "state_root": "/Users/ryanjlee/rjl-token/.dfx/network/local/state/replicated_state"
+    },
+    "crypto": {
+      "crypto_root": "/Users/ryanjlee/rjl-token/.dfx/network/local/state/crypto_store"
+    },
+    "artifact_pool": {
+      "consensus_pool_path": "/Users/ryanjlee/rjl-token/.dfx/network/local/state/consensus_pool"
+    },
+    "subnet_type": "application",
+    "btc_adapter": {
+      "enabled": false,
+      "socket_path": null
+    },
+    "canister_http_adapter": {
+      "enabled": true,
+      "socket_path": "/var/folders/ck/gn0dr0pd31v_y6ghc2dpsfg40000gn/T/ic-https-outcalls-adapter-socket.65890.1706759798"
+    },
+    "log_level": "error",
+    "artificial_delay": 600,
+    "use_old_metering": false
+  }
+}
